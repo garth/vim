@@ -3,5 +3,12 @@ execute pathogen#infect()
 filetype plugin indent on
 set number
 set dir=~/.vim/swap//
-colorscheme railscasts
+colorscheme garth
+set guifont=DejaVu\ Sans\ Mono:h13
+set lines=44 columns=140
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set linespace=1
 

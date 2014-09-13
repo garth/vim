@@ -1,9 +1,10 @@
 syntax on
 execute pathogen#infect()
 filetype plugin indent on
+colorscheme garth
+set runtimepath^=~/.vim/bundle/ctrlp
 set number
 set dir=~/.vim/swap//
-colorscheme garth
 set guifont=DejaVu\ Sans\ Mono:h13
 set lines=44 columns=140
 set smartindent

@@ -14,8 +14,8 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set linespace=1
-set scrolloff=4
+set scrolloff=3
 set list listchars=tab:»·,trail:·
 let g:netrw_liststyle=3
-" autocmd FileType c,cpp,java,php,js,json,html,hbs,handlebars autocmd BufWritePre <buffer> :%s/\s\+$//e
+" autocmd FileType js,json,html,hbs,handlebars autocmd BufWritePre <buffer> :%s/\s\+$//e
 

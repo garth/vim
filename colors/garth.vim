@@ -9,7 +9,7 @@ if version > 580
 endif
 
 set t_Co=256
-let g:colors_name = "garth_modified"
+let g:colors_name = "garth"
 
 hi IncSearch guifg=#000000 guibg=#e0b300 guisp=#e0b300 gui=NONE ctermfg=NONE ctermbg=178 cterm=NONE
 hi WildMenu guifg=NONE guibg=#A1A6A8 guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE

@@ -4,3 +4,9 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = http://github.com/tpope/vim-sensible.git
+[submodule "bundle/tern_for_vim"]
+	path = bundle/tern_for_vim
+	url = https://github.com/marijnh/tern_for_vim.git
+[submodule "bundle/vim-mustache-handlebars"]
+	path = bundle/vim-mustache-handlebars
+	url = https://github.com/mustache/vim-mustache-handlebars.git

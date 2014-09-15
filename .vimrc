@@ -7,7 +7,7 @@ set fenc=utf-8
 set runtimepath^=~/.vim/bundle/ctrlp
 set number
 set dir=~/.vim/swap//
-set guifont=DejaVu\ Sans\ Mono:h13
+set guifont=Ubuntu\ Mono\ 13,DejaVu\ Sans\ Mono\ 13
 set lines=44 columns=140
 set smartindent
 set tabstop=2

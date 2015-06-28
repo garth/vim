@@ -14,12 +14,14 @@ Install
 ```
 cd ~
 git clone https://github.com/garth/vim.git .vim
-ls -s .vim/.gitrc .gitrc
+ln -s .vim/.vimrc .vimrc
 cd .vim
 git submodule update --init --recursive
 cd bundle/tern_for_vim
 npm install
 ```
+
+On Ubuntu remember to install vim (`sudo apt-get install vim`) since the defaul vi install is very limited.
 
 ### Windows
 

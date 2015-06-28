@@ -4,7 +4,7 @@ filetype plugin indent on
 set noexrc
 set fenc=utf-8
 set number
-set lines=44 columns=140
+set lines=36 columns=120
 set smartindent
 set tabstop=2
 set shiftwidth=2
@@ -16,7 +16,7 @@ if has("unix")
   set dir=~/.vim/swap//
   set runtimepath^=~/.vim/bundle/ctrlp
   set list listchars=tab:»·,trail:·
-  set guifont=Ubuntu\ Mono\ 13,DejaVu\ Sans\ Mono\ 13
+  set guifont=Ubuntu\ Mono\ 11,DejaVu\ Sans\ Mono\ 11
   colorscheme garth
 else
   set dir=~/vimfiles/swap//

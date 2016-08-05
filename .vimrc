@@ -4,7 +4,7 @@ filetype plugin indent on
 set noexrc
 set fenc=utf-8
 set number
-set lines=36 columns=120
+" set lines=36 columns=120
 set smartindent
 set tabstop=2
 set shiftwidth=2
@@ -30,4 +30,16 @@ endif
 
 let g:netrw_liststyle=3
 " autocmd FileType js,json,html,hbs,handlebars autocmd BufWritePre <buffer> :%s/\s\+$//e
+
+map <C-n> :NERDTreeToggle<CR>
+" Send more characters for redraws
+set ttyfast
+" Enable mouse use in all modes
+set mouse=a
+" Set this to the name of your terminal that supports mouse codes.
+" Must be one of: xterm, xterm2, netterm, dec, jsbterm, pterm
+set ttymouse=xterm2
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 

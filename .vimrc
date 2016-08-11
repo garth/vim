@@ -9,7 +9,7 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set linespace=1
+" set linespace=1
 set scrolloff=3
 
 if has("unix")
@@ -56,4 +56,8 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Clean"     : "✔︎",
     \ "Unknown"   : "?"
     \ }
+
+" vim airline
+let g:airline_powerline_fonts = 1
+let g:airline_theme='dark'
 

@@ -16,6 +16,9 @@ cd ~
 git clone https://github.com/garth/vim.git .vim
 ln -s .vim/.vimrc .vimrc
 cd .vim
+cd powerline-fonts
+./install.sh
+cd ..
 git submodule update --init --recursive
 cd bundle/tern_for_vim
 npm install
